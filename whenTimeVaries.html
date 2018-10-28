@@ -1,0 +1,379 @@
+<!doctype html> 
+<html lang="en"> 
+<head> <title>When Time Varies</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta name="generator" content="TeX4ht (http://www.tug.org/tex4ht/)" /> 
+<meta name="originator" content="TeX4ht (http://www.tug.org/tex4ht/)" /> 
+<!-- charset=utf-8,-css,html,htex4ht,xhtml --> 
+<meta name="src" content="whenTimeVaries.tex" /> 
+<meta name="author" content="" /> 
+<meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
+<meta name="ximera" content="version 0.0.1" /> 
+<link href="https://ximera.osu.edu/public/stylesheets/standalone.css" rel="stylesheet" media="screen"/> 
+<script type="text/javascript" async src="https://ximera.osu.edu/public/javascripts/standalone.min.js"></script> 
+</head><body> 
+<div class="preamble"><script type="math/tex">\newenvironment {prompt}{}{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\d }[0]{\mathop {}\!d}
+\newcommand {\HyperFirstAtBeginDocument }[0]{\AtBeginDocument }</script><script type="text/javascript"> 
+</script> 
+</div>
+<div 
+class="abstract" 
+>
+</div>   <div class="maketitle"></div>
+<!--l. 12--><p class="noindent" >Some of the most important problems of the calculus are those where time is the
+independent variable, and we have to think about the values of some other quantity
+that varies when the time varies. Some things grow larger as time goes on; some
+other things grow smaller. The distance that a train has got from its starting place
+goes on ever increasing as time goes on. Trees grow taller as the years go by.
+Which is growing at the greater rate; a plant <script type="math/tex">12</script> inches high which in one month
+becomes <script type="math/tex">14</script> inches high, or a tree <script type="math/tex">12</script> feet high which in a year becomes <script type="math/tex">14</script> feet
+high?
+</p><!--l. 25--><p class="noindent" >In this chapter we are going to make much use of the word rate. Nothing to do with
+poor-rate, or water-rate (except that even here the word suggests a proportion-a
+ratio-so many pence in the pound). Nothing to do even with birth-rate or death-rate,
+though these words suggest so many births or deaths per thousand of the population.
+When a motor-car whizzes by us, we say: What a terrific rate! When a spendthrift is
+flinging about his money, we remark that that young man is living at a prodigious
+rate.
+</p><!--l. 36--><p class="noindent" >What do we mean by rate? In both these cases we are making a mental comparison
+of something that is happening, and the length of time that it takes to happen. If the
+motor-car flies past us going <script type="math/tex">10</script> yards per second, a simple bit of mental arithmetic will
+show us that this is equivalent-while it lasts-to a rate of <script type="math/tex">600</script> yards per minute, or over <script type="math/tex">20</script>
+miles per hour.
+</p><!--l. 45--><p class="noindent" >Now in what sense is it true that a speed of <script type="math/tex">10</script> yards per second is the same as <script type="math/tex">600</script> yards
+per minute? Ten yards is not the same as <script type="math/tex">600</script> yards, nor is one second the same thing as
+one minute. What we mean by saying that the rate is the same, is this: that the
+proportion borne between distance passed over and time taken to pass over it, is the
+same in both cases.
+</p><!--l. 54--><p class="noindent" >Take another example. A man may have only a few pounds in his possession, and yet
+be able to spend money at the rate of millions a year-provided he goes on spending
+money at that rate for a few minutes only. Suppose you hand a shilling
+over the counter to pay for some goods; and suppose the operation lasts
+exactly one second. Then, during that brief operation, you are parting with
+your money at the rate of <script type="math/tex">1</script> shilling per second, which is the same rate as <script type="math/tex">\pounds </script><script type="math/tex">3</script>
+per minute, or <script type="math/tex">\pounds </script><script type="math/tex">180</script> per hour, or <script type="math/tex">\pounds </script><script type="math/tex">4320</script> per day, or <script type="math/tex">\pounds </script><script type="math/tex">1,576,800</script> per year! If you have <script type="math/tex">\pounds </script><script type="math/tex">10</script> in your
+pocket, you can go on spending money at the rate of a million a year for just <script type="math/tex">5\frac {1}{4}</script>
+minutes.
+</p><!--l. 68--><p class="noindent" >It is said that Sandy had not been in London
+</p><!--l. 70--><p class="noindent" >above five minutes when ”bang went saxpence.” If he were to spend money at that
+                                                                  
+
+                                                                  
+rate all day long, say for <script type="math/tex">12</script> hours, he would be spending <script type="math/tex">6</script> shillings
+</p><!--l. 74--><p class="noindent" >an hour, or <script type="math/tex">\pounds </script><script type="math/tex">3</script>. <script type="math/tex">12</script>s . per day, or <script type="math/tex">\pounds </script><script type="math/tex">21</script>. <script type="math/tex">12</script>s . a week, not counting the Sabbath.
+</p><!--l. 77--><p class="noindent" >Now try to put some of these ideas into differential notation.
+</p><!--l. 80--><p class="noindent" >Let <script type="math/tex">y</script> in this case stand for money, and let <script type="math/tex">t</script> stand for time.
+</p><!--l. 83--><p class="noindent" >If you are spending money, and the amount you spend in a short time <script type="math/tex">dt</script> be
+called <script type="math/tex">dy</script>, the rate of spending it will be <script type="math/tex">\dfrac {dy}{dt}</script>, or rather, should be written with a
+minus sign, as <script type="math/tex">-\dfrac {dy}{dt}</script>, because <script type="math/tex">dy</script> is a decrement, not an increment. But money is
+not a good example for the calculus, because it generally comes and goes
+by jumps, not by a continuous flow-you may earn <script type="math/tex">\pounds </script><script type="math/tex">200</script> a year, but it does not
+keep running in all day long in a thin stream; it comes in only weekly, or
+monthly, or quarterly, in lumps: and your expenditure also goes out in sudden
+payments.
+</p><!--l. 95--><p class="noindent" >A more apt illustration of the idea of a rate is furnished by the speed of a
+moving body. From London (Euston station) to Liverpool is <script type="math/tex">200</script> miles. If a
+train leaves London at <script type="math/tex">7</script> o’clock, and reaches Liverpool at <script type="math/tex">11</script> o’clock, you know
+that, since it has travelled <script type="math/tex">200</script> miles in <script type="math/tex">4</script> hours, its average rate must have been <script type="math/tex">50</script>
+miles per hour; because <script type="math/tex">\frac {200}{4} = \frac {50}{1}</script>. Here you are really making a mental comparison
+between
+</p><!--l. 104--><p class="noindent" >the distance passed over and the time taken to pass over it. You are dividing one by
+the other. If <script type="math/tex">y</script> is the whole distance, and <script type="math/tex">t</script> the whole time, clearly the average rate
+is <script type="math/tex">\dfrac {y}{t}</script>. Now the speed was not actually constant all the way: at starting, and
+during the slowing up at the end of the journey, the speed was less. Probably
+at some part, when running downhill, the speed was over <script type="math/tex">60</script> miles an hour.
+If, during any particular element of time <script type="math/tex">dt</script>, the corresponding element of
+distance passed over was <script type="math/tex">dy</script>, then at that part of the journey the speed was <script type="math/tex">\dfrac {dy}{dt}</script>. The
+rate at which one quantity (in the present instance, distance) is changing in
+relation to the other quantity (in this case, time) is properly expressed, then,
+by stating the differential coefficient of one with respect to the other. A
+velocity, scientifically expressed, is the rate at which a very small distance
+in any given direction is being passed over; and may therefore be written
+<script type="math/tex; mode=display"> v = \dfrac {dy}{dt}. </script>
+</p><!--l. 126--><p class="noindent" >But if the velocity <script type="math/tex">v</script> is not uniform, then it must be either increasing or else
+decreasing. The rate at which a velocity is increasing is called the acceleration. If a
+moving body is, at any particular instant, gaining an additional velocity <script type="math/tex">dv</script> in
+an element of time <script type="math/tex">dt</script>, then the acceleration <script type="math/tex">a</script> at that instant may be written
+<script type="math/tex; mode=display"> a = \dfrac {dv}{dt}; </script>
+</p><!--l. 136--><p class="noindent" >but <script type="math/tex">dv</script> is itself <script type="math/tex">d\left ( \dfrac {dy}{dt} \right )</script>. Hence we may put <script type="math/tex; mode=display"> a = \frac {d\left ( \dfrac {dy}{dt} \right )}{dt}; </script> and this is usually written <script type="math/tex">a = \dfrac {d^2y}{dt^2}</script>; or the acceleration is
+the second differential coefficient of the distance, with respect to time. Acceleration is
+expressed as a change of velocity in unit time, for instance, as being so many feet per
+second per second; the notation used being <script type="math/tex">\text {feet} \div \text {second}^2</script>.
+</p><!--l. 147--><p class="noindent" >When a railway train has just begun to move, its velocity <script type="math/tex">v</script> is small; but it is rapidly
+gaining speed-it is being hurried up, or accelerated, by the effort of the engine. So its <script type="math/tex">\dfrac {d^2y}{dt^2}</script>
+                                                                  
+
+                                                                  
+is large. When it has got up its top speed it is no longer being accelerated, so that
+then <script type="math/tex">\dfrac {d^2y}{dt^2}</script> has fallen to zero. But when it nears its stopping place its speed begins to slow
+down; may, indeed, slow down very quickly if the brakes are put on, and during this
+period of deceleration or slackening of pace, the value of <script type="math/tex">\dfrac {dv}{dt}</script>, that is, of <script type="math/tex">\dfrac {d^2y}{dt^2}</script> will be
+negative.
+</p><!--l. 158--><p class="noindent" >To accelerate a mass <script type="math/tex">m</script> requires the continuous application of force. The force necessary
+to accelerate a mass is proportional to the mass, and it is also proportional to the
+acceleration which is being imparted. Hence we may write for the force <script type="math/tex">f</script>, the
+expression </p><script type="math/tex; mode=display"> \begin{align} 
+f &= ma \\
+ \text{or}\\ f &= m \frac{dv}{dt}
+ \text{or}\\ f &= m \frac{d^2y}{dt^2}
+\end{align}</script>
+<!--l. 170--><p class="noindent" >The product of a mass by the speed at which it is going is called its momentum, and
+is in symbols <script type="math/tex">mv</script>. If we differentiate momentum with respect to time we shall get <script type="math/tex">\dfrac {d(mv)}{dt}</script> for
+the rate of change of momentum. But, since <script type="math/tex">m</script> is a constant quantity, this
+may be written <script type="math/tex">m \dfrac {dv}{dt}</script>, which we see above is the same as <script type="math/tex">f</script>. That is to say, force
+may be expressed either as mass times acceleration, or as rate of change of
+momentum.
+</p><!--l. 180--><p class="noindent" >Again, if a force is employed to move something (against an equal and opposite
+counter-force), it does work; and the amount of work done is measured by the
+product of the force into the distance (in its own direction) through which its point of
+application moves forward. So if a force <script type="math/tex">f</script> moves forward through a length <script type="math/tex">y</script>, the work
+done (which we may call <script type="math/tex">w</script>) will be
+</p><!--l. 189--><p class="noindent" ><script type="math/tex">w = f * y</script>
+</p><!--l. 191--><p class="noindent" >where we take <script type="math/tex">f</script> as a constant force. If the force varies at different parts of the
+range <script type="math/tex">y</script>, then we must find an expression for its value from point to point. If <script type="math/tex">f</script>
+be the force along the small element of length <script type="math/tex">dy</script>, the amount of work done
+will be <script type="math/tex">f * dy</script>. But as <script type="math/tex">dy</script> is only an element of length, only an element of work will
+be done. If we write <script type="math/tex">w</script> for work, then an element of work will be <script type="math/tex">dw</script>; and we
+have
+</p><!--l. 200--><p class="noindent" ><script type="math/tex">dw = f * dy</script>
+</p><!--l. 203--><p class="noindent" >which may be written
+</p><!--l. 205--><p class="noindent" ><script type="math/tex">dw = ma*dy \text { or} dw = m \frac {d^2y}{dt^2}* dy \text {or} dw = m \frac {dv}{dt}* dy</script>
+</p><!--l. 211--><p class="noindent" >Further, we may transpose the expression and write
+</p><!--l. 213--><p class="noindent" ><script type="math/tex">\frac {dw}{dy} = f</script>.
+</p><!--l. 216--><p class="noindent" >This gives us yet a third definition of force; that if it is being used to produce a
+displacement in any direction, the force (in that direction) is equal to the rate at
+which work is being done per unit of length in that direction. In this last sentence the
+word rate is clearly not used in its time-sense, but in its meaning as ratio or
+                                                                  
+
+                                                                  
+proportion.
+</p><!--l. 224--><p class="noindent" >Sir Isaac Newton, who was (along with Leibniz) an inventor of the methods of the
+calculus, regarded all quantities that were varying as flowing; and the ratio which we
+nowadays call the differential coefficient he regarded as the rate of flowing, or the
+fluxion of the quantity in question. He did not use the notation of the <script type="math/tex">dy</script> and <script type="math/tex">dx</script>, and <script type="math/tex">dt</script>
+(this was due to Leibnitz), but had instead a notation of his own. If <script type="math/tex">y</script> was a quantity
+that varied, or ”flowed,” then his symbol for its rate of variation (or ”fluxion”)
+was
+</p><!--l. 235--><p class="noindent" ><script type="math/tex">\dot {y}</script>. If <script type="math/tex">x</script> was the variable, then its fluxion was called <script type="math/tex">\dot {x}</script>. The dot over the letter indicated
+that it had been differentiated. But this notation does not tell us what is
+the independent variable with respect to which the differentiation has been
+effected. When we see <script type="math/tex">\dfrac {dy}{dt}</script> we know that <script type="math/tex">y</script> is to be differentiated with respect
+to <script type="math/tex">t</script>. If we see <script type="math/tex">\dfrac {dy}{dx}</script> we know that <script type="math/tex">y</script> is to be differentiated with respect to <script type="math/tex">x</script>. But
+if we see merely <script type="math/tex">\dot {y}</script>, we cannot tell without looking at the context whether
+this is to mean <script type="math/tex">\dfrac {dy}{dx}</script> or <script type="math/tex">\dfrac {dy}{dt}</script> or <script type="math/tex">\dfrac {dy}{dz}</script>, or what is the other variable. So, therefore, this
+fluxional notation is less informing than the differential notation, and has in
+consequence largely dropped out of use. But its simplicity gives it an advantage if
+only we will agree to use it for those cases exclusively where time is the
+independent variable. In that case <script type="math/tex">\dot {y}</script> will mean <script type="math/tex">\dfrac {dy}{dt}</script> and <script type="math/tex">\dot {u}</script> will mean <script type="math/tex">\dfrac {du}{dt}</script>; and <script type="math/tex">\ddot {x}</script> will mean
+<script type="math/tex">\dfrac {d^2x}{dt^2}</script>.
+</p><!--l. 254--><p class="noindent" >Adopting this fluxional notation we may write the mechanical equations considered
+in the paragraphs above, as follows:
+</p>
+<div class="tabular"> <table id="TBL-1" class="tabular" 
+cellspacing="0" cellpadding="0"  
+><colgroup id="TBL-1-1g"><col 
+id="TBL-1-1" /><col 
+id="TBL-1-2" /></colgroup><tr  
+ style="vertical-align:baseline;" id="TBL-1-1-"><td  style="white-space:nowrap; text-align:left;" id="TBL-1-1-1"  
+class="td11"> distance      </td><td  style="white-space:nowrap; text-align:right;" id="TBL-1-1-2"  
+class="td11"> <script type="math/tex">x</script> </td></tr><tr  
+ style="vertical-align:baseline;" id="TBL-1-2-"><td  style="white-space:nowrap; text-align:left;" id="TBL-1-2-1"  
+class="td11"> velocity </td><td  style="white-space:nowrap; text-align:right;" id="TBL-1-2-2"  
+class="td11">  <script type="math/tex">v = \dot {x}</script></td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-1-3-"><td  style="white-space:nowrap; text-align:left;" id="TBL-1-3-1"  
+class="td11"> acceleration  </td><td  style="white-space:nowrap; text-align:right;" id="TBL-1-3-2"  
+class="td11"> <script type="math/tex">a = \dot {v} = \ddot {x}</script> </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-1-4-"><td  style="white-space:nowrap; text-align:left;" id="TBL-1-4-1"  
+class="td11"> force           </td><td  style="white-space:nowrap; text-align:right;" id="TBL-1-4-2"  
+class="td11"> <script type="math/tex">f = m\dot {v} = m\ddot {x}</script> </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-1-5-"><td  style="white-space:nowrap; text-align:left;" id="TBL-1-5-1"  
+class="td11"> work           </td><td  style="white-space:nowrap; text-align:right;" id="TBL-1-5-2"  
+class="td11"> <script type="math/tex">w = x * m \ddot {x}</script> </td>
+</tr><tr  
+ style="vertical-align:baseline;" id="TBL-1-6-"><td  style="white-space:nowrap; text-align:left;" id="TBL-1-6-1"  
+class="td11">            </td>
+</tr></table></div>
+<!--l. 270--><p class="noindent" >Examples (1) A body moves so that the distance <script type="math/tex">x</script> (in feet), which it travels from a
+certain point <script type="math/tex">O</script>, is given by the relation <script type="math/tex">x = 0.2t^2 + 10.4</script>, where <script type="math/tex">t</script> is the time in seconds elapsed
+since a certain instant. Find the velocity and acceleration <script type="math/tex">5</script> seconds after
+the body began to move, and also find the corresponding values when the
+distance covered is <script type="math/tex">100</script> feet. Find also the average velocity during the first <script type="math/tex">10</script>
+seconds of its motion. (Suppose distances and motion to the right to be
+positive.)
+</p><!--l. 282--><p class="noindent" >Now <script type="math/tex; mode=display"> x = 0.2t^2 + 10.4 \\ v = \dot {x} = \frac {dx}{dt} = 0.4t;\quad \text {and}\quad a = \ddot {x} = \frac {d^2x}{dt^2} = 0.4 = \text {constant.} </script>
+</p><!--l. 289--><p class="noindent" >When <script type="math/tex">t = 0</script>, <script type="math/tex">x = 10.4</script> and <script type="math/tex">v = 0</script>. The body started from a point <script type="math/tex">10.4</script> feet to the right of the point <script type="math/tex">O</script>; and the
+time was reckoned from the instant the body started.
+</p><!--l. 294--><p class="noindent" >When <script type="math/tex">t = 5</script>, <script type="math/tex">v = 0.4 * 5 = 2 \text {ft./sec.}</script>; <script type="math/tex">a = 0.4 \text {ft./sec}^2</script>.
+</p><!--l. 297--><p class="noindent" >When <script type="math/tex">x = 100</script>, <script type="math/tex">100 = 0.2t^2 + 10.4</script>, or <script type="math/tex">t^2 = 448</script>, and <script type="math/tex">t = 21.17 \text {sec.}</script>; <script type="math/tex">v = 0.4 * 21.17 = 8.468 \text {ft./sec.}</script>
+</p><!--l. 300--><p class="noindent" >When <script type="math/tex">t = 10</script>, </p><div 
+class="gather-star"><img 
+src="whenTimeVaries0x.png" alt="distance travelled = 0.2 ∗102 + 10.4− 10.4 = 20ft.
+                       20
+       Average velocity = 10 = 2ft./sec.
+"  /></div>
+<!--l. 306--><p class="noindent" >(It is the same velocity as the velocity at the middle of the interval, <script type="math/tex">t = 5</script>; for, the
+acceleration being constant, the velocity has varied uniformly from zero when <script type="math/tex">t = 0</script> to <script type="math/tex">4 \text {ft./sec.}</script>
+when <script type="math/tex">t = 10</script>.)
+</p><!--l. 312--><p class="noindent" >(2) In the above problem let us suppose </p><div 
+class="gather-star"><img 
+src="whenTimeVaries1x.png" alt="               x = 0.2t2 + 3t+ 10.4.
+        dx                    d2x
+v = ˙x = --= 0.4t+ 3;  a = ¨x =--2 = 0.4 = constant.
+        dt                   dt
+"  /></div>
+<!--l. 318--><p class="noindent" >When <script type="math/tex">t = 0</script>, <script type="math/tex">x = 10.4</script> and <script type="math/tex">v = 3</script> ft./sec, the time is reckoned from the instant at which the body passed
+a point <script type="math/tex">10.4</script> ft. from the point <script type="math/tex">O</script>, its velocity being then already <script type="math/tex">3</script> ft./sec. To find the time
+elapsed since it began moving, let <script type="math/tex">v = 0</script>; then <script type="math/tex">0.4t + 3 = 0</script>, <script type="math/tex">t= -\frac {3}{.4} = -7.5</script> sec. The body began moving <script type="math/tex">7.5</script>
+sec. before time was begun to be observed; <script type="math/tex">5</script> seconds after this gives <script type="math/tex">t = -2.5</script> and <script type="math/tex">v = 0.4 * -2.5 + 3 = 2</script>
+ft./sec.
+</p><!--l. 328--><p class="noindent" >When <script type="math/tex">x = 100</script> ft., <script type="math/tex; mode=display"> 100 = 0.2t^2 + 3t + 10.4;\quad \text {or } t^2 + 15t - 448 = 0; </script> hence <script type="math/tex">t = 14.95</script> sec., <script type="math/tex">v = 0.4 * 14.95 + 3 = 8.98</script> ft./sec.
+</p><!--l. 334--><p class="noindent" >To find the distance travelled during the <script type="math/tex">10</script> first seconds of the motion one must know
+how far the body was from the point <script type="math/tex">O</script> when it started.
+</p><!--l. 338--><p class="noindent" >When <script type="math/tex">t = -7.5</script>, <script type="math/tex; mode=display"> x = 0.2 * (-7.5)^2 - 3 * 7.5 + 10.4 = -0.85 \text {ft}., </script> that is <script type="math/tex">0.85</script> ft. to the left of the point <script type="math/tex">O</script>.
+</p><!--l. 344--><p class="noindent" >Now, when <script type="math/tex">t = 2.5</script>, <script type="math/tex; mode=display"> x = 0.2 * 2.5^2 + 3 * 2.5 + 10.4 = 19.15. </script>
+</p><!--l. 349--><p class="noindent" >So, in <script type="math/tex">10</script> seconds, the distance travelled was <script type="math/tex">19.15 + 0.85 = 20</script> ft., and <script type="math/tex; mode=display"> \text {the average velocity } = \tfrac {20}{10} = 2 \text { ft./sec}. </script>
+</p><!--l. 355--><p class="noindent" >(3) Consider a similar problem when the distance is given by <script type="math/tex">x = 0.2t^2 - 3t + 10.4</script>. Then <script type="math/tex">v = 0.4t - 3</script>, <script type="math/tex">a = 0.4 = \text {constant}</script>. When <script type="math/tex">t = 0</script>, <script type="math/tex">x = 10.4</script> as
+before, and
+</p><!--l. 359--><p class="noindent" ><script type="math/tex">v = -3</script>; so that the body was moving in the direction opposite to its motion in the previous
+cases. As the acceleration is positive, however, we see that this velocity will
+decrease as time goes on, until it becomes zero, when <script type="math/tex">v = 0</script> or <script type="math/tex">0.4t - 3 = 0</script>; or <script type="math/tex">t = 7.5</script> sec. After this,
+the velocity becomes positive; and <script type="math/tex">5</script> seconds after the body started, <script type="math/tex">t = 12.5</script>, and
+<script type="math/tex; mode=display"> v = 0.4 * 12.5 - 3 = 2 \text { ft./sec}. </script>
+</p><!--l. 370--><p class="noindent" >When <script type="math/tex">x = 100</script>, <script type="math/tex; mode=display"> 100 = 0.2t^2 - 3t + 10.4,\quad \text {or } t^2 - 15t - 448 = 0, \\ \text {and}\; t = 29.95;\ v = 0.4 * 29.95 - 3 = 8.98 \text {ft./sec.} </script>
+</p><!--l. 377--><p class="noindent" >When <script type="math/tex">v</script> is zero, <script type="math/tex">x = 0.2 * 7.5^2 - 3 * 7.5 + 10.4 = -0.85</script>, informing us that the body moves back to <script type="math/tex">0.85</script> ft. beyond the
+point <script type="math/tex">O</script> before it stops. Ten seconds later <script type="math/tex; mode=display"> t = 17.5 \text { and } x = 0.2 * 17.5^2 - 3 * 17.5 + 10.4 = 19.15. </script> <script type="math/tex">\text {The distance travelled} = .85 + 19.15 = 20.0</script>, and the average velocity is again <script type="math/tex">2</script>
+ft./sec.
+                                                                  
+
+                                                                  
+</p><!--l. 386--><p class="noindent" >(4) Consider yet another problem of the same sort with <script type="math/tex">x = 0.2t^3 - 3t^2 + 10.4</script>; <script type="math/tex">v = 0.6t^2 - 6t</script>; <script type="math/tex">a = 1.2t - 6</script>. The acceleration is no
+more constant.
+</p><!--l. 390--><p class="noindent" >When <script type="math/tex">t = 0</script>, <script type="math/tex">x = 10.4</script>, <script type="math/tex">v = 0</script>, <script type="math/tex">a = -6</script>. The body is at rest, but just ready to move with a negative acceleration,
+that is to gain a velocity towards the point <script type="math/tex">O</script>.
+</p><!--l. 395--><p class="noindent" >(5) If we have <script type="math/tex">x = 0.2t^3 - 3t + 10.4</script>, then <script type="math/tex">v = 0.6t^2 - 3</script>, and <script type="math/tex">a = 1.2t</script>.
+</p><!--l. 398--><p class="noindent" >When <script type="math/tex">t = 0</script>, <script type="math/tex">x = 10.4</script>; <script type="math/tex">v = -3</script>; <script type="math/tex">a = 0</script>.
+</p><!--l. 400--><p class="noindent" >The body is moving towards the point <script type="math/tex">O</script> with
+</p><!--l. 402--><p class="noindent" >a velocity of <script type="math/tex">3</script> ft./sec., and just at that instant the velocity is uniform.
+</p><!--l. 405--><p class="noindent" >We see that the conditions of the motion can always be at once ascertained from the
+time-distance equation and its first and second derived functions. In the last two
+cases the mean velocity during the first <script type="math/tex">10</script> seconds and the velocity <script type="math/tex">5</script> seconds after the
+start will no more be the same, because the velocity is not increasing uniformly, the
+acceleration being no longer constant.
+</p><!--l. 414--><p class="noindent" >(6) The angle <script type="math/tex">\theta </script> (in radians) turned through by a wheel is given by <script type="math/tex">\theta = 3 + 2t - 0.1t^3</script>, where <script type="math/tex">t</script> is the time
+in seconds from a certain instant; find the angular velocity <script type="math/tex">\omega </script> and the angular
+acceleration <script type="math/tex">\alpha </script>, (a ) after <script type="math/tex">1</script> second; (b ) after it has performed one revolution. At what
+time is it at rest, and how many revolutions has it performed up to that
+instant?
+</p><!--l. 422--><p class="noindent" >Writing for the acceleration <script type="math/tex; mode=display"> \omega = \dot {\theta } = \dfrac {d\theta }{dt} = 2 - 0.3t^2,\quad \alpha = \ddot {\theta } = \dfrac {d^2\theta }{dt^2} = -0.6t. </script>
+</p><!--l. 428--><p class="noindent" >When <script type="math/tex">t = 0</script>, <script type="math/tex">\theta = 3</script>; <script type="math/tex">\omega = 2</script> rad./sec.; <script type="math/tex">\alpha = 0</script>.
+</p><!--l. 430--><p class="noindent" >When <script type="math/tex">t = 1</script>, <script type="math/tex; mode=display"> \omega = 2 - 0.3 = 1.7 \text {rad./sec.};\quad \alpha = -0.6 \text {rad./sec}^2. </script>
+</p><!--l. 435--><p class="noindent" >This is a retardation; the wheel is slowing down.
+</p><!--l. 437--><p class="noindent" >After <script type="math/tex">1</script> revolution <script type="math/tex; mode=display"> \theta = 2\pi = 6.28;\quad 6.28 = 3 + 2t - 0.1t^3. </script>
+</p><!--l. 442--><p class="noindent" >By plotting the graph, <script type="math/tex">\theta = 3 + 2t - 0.1t^3</script>, we can get the value or values of <script type="math/tex">t</script> for which <script type="math/tex">\theta = 6.28</script>; these are <script type="math/tex">2.11</script> and <script type="math/tex">3.03</script>
+(there is a third negative value).
+</p><!--l. 447--><p class="noindent" >When <script type="math/tex">t = 2.11</script>, </p><div 
+class="gather-star"><img 
+src="whenTimeVaries2x.png" alt="𝜃 = 6.28;  ω = 2− 1.34 = 0.66 rad./sec.;
+                         2
+         α = − 1.27 rad./sec .
+"  /></div>When <script type="math/tex">t = 3.03</script>, <div 
+class="gather-star"><img 
+src="whenTimeVaries3x.png" alt="𝜃 = 6.28; ω = 2 − 2.754 = − 0.754 rad./sec.;
+                          2
+          α = − 1.82 rad./sec .
+"  /></div>
+<!--l. 458--><p class="noindent" >The velocity is reversed. The wheel is evidently at rest between these two instants; it
+is at rest when <script type="math/tex">\omega = 0</script>, that is when <script type="math/tex">0 = 2 - 0.3t^3</script>, or when <script type="math/tex">t = 2.58 \text {sec.}</script>, it has performed <script type="math/tex; mode=display"> \frac {\theta }{2\pi } = \frac {3 + 2 * 2.58 - 0.1 * 2.58^3}{6.28} = 1.025 \text { revolutions}. </script>
+</p><!--l. 468--><p class="noindent" >Exercises V
+</p>
+<div role="article" class="problem-environment problem" id="problem1"><a 
+ id="x1-6r1"></a> If <script type="math/tex">y = a + bt^2 + ct^4</script>; find <script type="math/tex">\dfrac {dy}{dt} = \answer {2bt + 4ct^3}</script> and <script type="math/tex">\dfrac {d^2y}{dt^2} = \answer {\dfrac {d^2y}{dt^2} = 2b + 12ct^2}</script>.
+</div>
+<div role="article" class="problem-environment problem" id="problem2"><a 
+ id="x1-7r2"></a> A body falling freely in space describes in <script type="math/tex">t</script> seconds a space <script type="math/tex">s</script>, in feet, expressed by the
+equation <script type="math/tex">s = 16t^2</script>. Draw a curve showing the relation between <script type="math/tex">s</script> and <script type="math/tex">t</script>. Also determine the
+velocity of the body at the following times from its being let drop: <script type="math/tex">t = 2</script> seconds; Answer: <script type="math/tex">\answer {64}</script>
+<script type="math/tex">t = 4.6</script> seconds; Answer: <script type="math/tex">\answer {0.32}</script> <script type="math/tex">t = 0.01</script> second. Answer = <script type="math/tex">\answer {147.2}</script>
+</div>
+<div role="article" class="problem-environment problem" id="problem3"><a 
+ id="x1-8r3"></a> If <script type="math/tex">x = at - \frac {1}{2}gt^2</script>; find <script type="math/tex">\dot {x} = \answer {x = a - gt}</script> and <script type="math/tex">\ddot {x} = \answer {\ddot {x} = -g}</script>.
+</div>
+<div role="article" class="problem-environment problem" id="problem4"><a 
+ id="x1-9r4"></a> If a body move according to the law
+<!--l. 496--><p class="noindent" ><script type="math/tex">s = 12 - 4.5t + 6.2t^2</script>,
+</p><!--l. 498--><p class="noindent" >find its velocity when <script type="math/tex">t = 4</script> seconds; <script type="math/tex">s</script> being in feet. <script type="math/tex">\answer {45.1}</script>
+</p></div>
+<div role="article" class="problem-environment problem" id="problem5"><a 
+ id="x1-10r5"></a> Find the acceleration of the body mentioned in the preceding example. <script type="math/tex">\answer {12.4}</script> <div role="article" class="problem-environment question" id="problem6"><a 
+ id="x1-11r6"></a> Is the
+acceleration the same for all values of <script type="math/tex">t</script>? <div class="multiple-choice" id="problem7"><span class="choice correct "   id="choice1">yes</span> <span class="choice  "   id="choice2">no</span> </div>
+</div>
+</div>
+<div role="article" class="problem-environment problem" id="problem8"><a 
+ id="x1-12r7"></a> The angle <script type="math/tex">\theta </script> (in radians) turned through by a revolving wheel is connected with the
+time <script type="math/tex">t</script> (in seconds) that has elapsed since starting; by the law <script type="math/tex; mode=display"> \theta = 2.1 - 3.2t + 4.8t^2. </script>
+<div role="article" class="problem-environment problem" id="problem9"><a 
+ id="x1-13r8"></a> Find the angular velocity (in radians per second) of that wheel when <script type="math/tex">1\frac {1}{2}</script> seconds have
+elapsed. Angular velocity <script type="math/tex">{} = \answer {11.2}</script> radians per second. <div role="article" class="problem-environment problem" id="problem10"><a 
+ id="x1-14r9"></a> Find also its angular acceleration.
+Angular acceleration <script type="math/tex">{}= \answer {9.6}</script> radians per second per second
+</div>
+</div>
+<div role="article" class="problem-environment problem" id="problem11"><a 
+ id="x1-15r10"></a> A slider moves so that, during the first part of its motion, its distance <script type="math/tex">s</script> in inches
+from its starting point is given by the expression
+<!--l. 539--><p class="noindent" ><script type="math/tex">s = 6.8t^3 - 10.8t</script>;<script type="math/tex">t</script> being in seconds.
+                                                                  
+
+                                                                  
+</p><!--l. 542--><p class="noindent" >Find the expression for the velocity at any time: <script type="math/tex">v = \answer {20.4t^2 - 10.8}</script>
+</p></div>
+<div role="article" class="problem-environment problem" id="problem12"><a 
+ id="x1-16r11"></a> and the acceleration at any time: <script type="math/tex">a = \answer {40.8t}</script> <div role="article" class="problem-environment problem" id="problem13"><a 
+ id="x1-17r12"></a> and hence find the velocity and the acceleration
+after <script type="math/tex">3</script> seconds. Answer: <script type="math/tex">\answer {122.4} \text {in./sec}^2</script>
+</div>
+</div>
+</div>
+<div role="article" class="problem-environment problem" id="problem14"><a 
+ id="x1-18r13"></a> The motion of a rising balloon is such that its height <script type="math/tex">h</script>, in miles, is given at any
+instant by the expression <script type="math/tex">h = 0.5 + \frac {1}{10}\sqrt [3]{t-125}</script>; <script type="math/tex">t</script> being in seconds.
+<!--l. 559--><p class="noindent" >Find an expression for the velocity and the acceleration at any time. Draw curves to
+show the variation of height, velocity and acceleration during the first ten minutes of
+the ascent.
+</p><!--l. 561--><p class="noindent" >Velocity: <script type="math/tex">v = \answer {\dfrac {1}{30 \sqrt [3]{(t - 125)^2}}}</script> Acceleration: <script type="math/tex">a = \answer {- \dfrac {1}{45 \sqrt [3]{(t - 125)^5}}}</script>
+</p>
+</div>
+<div role="article" class="problem-environment problem" id="problem15"><a 
+ id="x1-19r14"></a> A stone is thrown downwards into water and its depth <script type="math/tex">p</script> in metres at any instant <script type="math/tex">t</script>
+seconds after reaching the surface of the water is given by the expression
+<!--l. 571--><p class="noindent" ><script type="math/tex">p = \frac {4}{4+t^2} + 0.8t - 1</script>.
+</p><!--l. 574--><p class="noindent" >Find an expression for the velocity and the acceleration at any time.
+</p><!--l. 576--><p class="noindent" >Velocity: <script type="math/tex">v = \answer {0.8 - \dfrac {8t}{(4 + t^2)^2}}</script> Acceleration: <script type="math/tex">v = \answer {0.8 - \dfrac {8t}{(4 + t^2)^2}}</script> </p><div role="article" class="problem-environment problem" id="problem16"><a 
+ id="x1-20r15"></a> Find the velocity and acceleration after <script type="math/tex">10</script> seconds. Velocity: <script type="math/tex">\answer {0.7926}</script>
+Acceleration: <script type="math/tex">\answer {0.00211}</script>
+</div>
+</div>
+<div role="article" class="problem-environment problem" id="problem17"><a 
+ id="x1-21r16"></a> A body moves in such a way that the spaces described in the time <script type="math/tex">t</script> from starting is
+given by <script type="math/tex">s = t^n</script>, where <script type="math/tex">n</script> is a constant. Find the value of <script type="math/tex">n</script> when the velocity is doubled from
+the <script type="math/tex">5</script>th to the <script type="math/tex">10</script>th second: <script type="math/tex">\answer {2}</script> <div role="article" class="problem-environment problem" id="problem18"><a 
+ id="x1-22r17"></a> find it also when the velocity is numerically equal to the
+acceleration at the end of the <script type="math/tex">10</script>th second. <script type="math/tex">\answer {11}</script>
+</div>
+</div>
+</body> 
+ 
+</html>
+                                                                  
+
+                                                                  
+                                                                  
+
+

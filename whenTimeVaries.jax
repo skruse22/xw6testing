@@ -1,0 +1,4 @@
+\newenvironment {prompt}{}{}
+\newcommand {\ungraded }[0]{}
+\newcommand {\d }[0]{\mathop {}\!d}
+\newcommand {\HyperFirstAtBeginDocument }[0]{\AtBeginDocument }
